@@ -1,0 +1,71 @@
+html {
+    padding: 25px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    background: #FAFAFA;
+}
+@media (min-width: 1000px) {
+    input {
+        width: 50%;
+    }
+}
+@media (max-width: 999px) {
+    input {
+        width: 80%;
+    }
+}
+.center {
+    text-align: center;
+}
+.teal {
+    color: #2cb1be;
+}
+.grey {
+    color: #919196;
+}
+.header {
+    font-size: 38px;
+}
+.caption {
+    font-size: 20px;
+    top: 0;
+    margin: 5px;
+}
+.subtitle {
+    font-size: 28px;
+    font-weight: bold;
+}
+.stat {
+    margin: 10px;
+    font-size: 56px;
+    font-weight: bold;
+}
+.cat {
+    padding-bottom: 50px
+}
+.footer {
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
+    left: 0;
+}
+.footer > div > p {
+    margin: 5px;
+}
+.piracy {
+    margin: 15px;
+}
+a, a:active, a:focus, a:link, a:visited {
+    color: #2cb1be;
+    text-decoration: none;
+}
+a:hover {
+    color: #238d98;
+}
+input {
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    background: #ededed;
+}
