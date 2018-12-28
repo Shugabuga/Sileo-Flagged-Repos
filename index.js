@@ -27,10 +27,13 @@ function search() {
         if(req.readyState === 4 && req.status === 200) {
             resp = req.responseText;
             if(resp == "true") {
-                document.getElementById("isPiracy").innerHTML = "This repo <b>is</b> flagged!"
+                document.getElementById("isPiracy").innerHTML = "This repo <b>is</b> flagged!";
                 document.getElementById("isPiracy").style.color = "#2cb1be";
+            } else if(url.indexOf(".") == -1) {
+                document.getElementById("isPiracy").innerHTML = "Type in a repo URL to search...";
+                document.getElementById("isPiracy").style.color = "#919196";
             } else {
-                document.getElementById("isPiracy").innerHTML = "This repo is not flagged."
+                document.getElementById("isPiracy").innerHTML = "This repo is not flagged.";
                 document.getElementById("isPiracy").style.color = "#919196";
             }
         }

@@ -43,8 +43,15 @@ html {
 .cat {
     padding-bottom: 50px
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+.contents {
+    flex: 1;
+}
 .footer {
-    position: fixed;
     bottom: 25px;
     width: 100%;
     left: 0;
