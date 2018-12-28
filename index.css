@@ -2,7 +2,7 @@ html {
     padding: 25px;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-    background: #FAFAFA;
+    background: #fafafa;
 }
 @media (min-width: 1000px) {
     input {
