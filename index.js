@@ -43,8 +43,12 @@ function search() {
 
 document.getElementById("search").addEventListener("keyup", search);
 
-window.onload = function() {
+function load() {
     update();
     window.setInterval(update, 10000);
     console.info("%cDid you know? %cThis site is open-source at %chttps://github.com/Shugabuga/Sileo-Flagged-Repos%c!","color:#2cb1be;font-weight:bold","color:#2cb1be","color:#919196","color:#2cb1be");
+}
+
+window.onload = function() {
+    load()
 }
